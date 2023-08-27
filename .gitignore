@@ -1,0 +1,4 @@
+*.o
+*.rc
+*.service
+mdnsd

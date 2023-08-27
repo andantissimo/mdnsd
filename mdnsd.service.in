@@ -1,0 +1,10 @@
+[Unit]
+Description=mDNS Daemon
+After=network.target
+
+[Service]
+ExecStart=@SBINDIR@/mdnsd
+User=nobody
+
+[Install]
+WantedBy=multi-user.target
